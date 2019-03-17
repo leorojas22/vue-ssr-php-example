@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld :msg="message"/>
   </div>
 </template>
 
@@ -12,6 +12,17 @@ export default {
   name: 'app',
   components: {
     HelloWorld
+  },
+  data() {
+      return {
+          message: "Welcome to Your Vue.js App"
+      }
+  },
+  created() {
+      if(typeof context !== 'undefined' && typeof context.message !== 'undefined')
+      {
+          this.message = context.message;
+      }
   }
 }
 </script>
