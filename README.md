@@ -1,29 +1,5 @@
-# test-app
+# Vue.js Server Side Rendering PHP Example
 
-## Project setup
-```
-npm install
-```
+I was having some trouble getting the spatie/server-side-rendering library working so I thought it might be useful to put up this example once I figured it out.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+I also wrote a blog post here https://rojas.io/vue-js-server-side-rendering-with-php/ that goes into detail of how to get it working using Node.
